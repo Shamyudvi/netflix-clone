@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+    .hero{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .hero-img{
+        width: 100%;
+        transform: scale(1.4);
+    }
+    .tint{
+        background-color: rgba(0, 0, 0, 0.45);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .content{
+        position: absolute;
+        text-align: center;
+        top: 0;
+        color: white;
+        width: 840px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .nav{
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 1400px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo{
+        color: red;
+        height: 140px;
+        width: 160px;
+        margin-top: 120px;
+    }
+    .nav-flex{
+        display: flex;
+        gap: 20px;
+    }
+    .login-btn{
+        padding: 8px 25px;
+        border: none;
+        background-color: red;
+        color: white;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .en-btn{
+        background-color: #0000006e;
+        color: white;
+        border: 1px solid #eeeeee87;
+        padding: 8px 25px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 550;
+    
+    }
+ 
+    .title{
+        font-size: 4vmax;
+        text-align: center;
+        margin:-2%;
+    }
+    .sub-title{
+        font-size: 26px;
+        padding-top: -20px;;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    .content-input{
+        width: 380px;
+        padding: 14px;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.551);
+        border: 1px solid #eeeeee70;
+        border-radius: 4px;
+       
+    }
+    .content-flex{
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+    }
+    .content-btn{
+        padding: 12px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 190px;
+        justify-content: center;
+    }
+    .trending{
+        
+        width: 840px;
+        margin-top:50px;
+    }
+    .trend-title{
+        color:white;
+        margin:10px 150px;
+        font-size: 27px;
+    }
+    .dropdown{
+        border:1px solid rgba(211, 211, 211, 0.226);
+        padding:8px 12px;
+        margin:12px; 
+        background-color: black;
+        color:white;
+        font-size: 18px;
+        border-radius:6px;
+        
+           
+    }
+    .dropdown-section{
+        margin:10px 150px;
+    }
+    
+    .movies{
+        width:1400px;
+        display:flex;
+        justify-content: space-evenly;
+        margin:10px 150px;
+        padding:10px 30px;
+        border-radius: 14px;
+        
+
+    }
+    .movie-photo{
+        border-radius:14px;
+    }
+    .reasons{
+        width: 1440px;
+        margin-top:50px;
+
+    }
+    .reason{
+        color:white;
+        margin:10px 150px;
+        font-size: 27px;
+        
+
+    }
+    .card-title{
+        color:white;
+        font-size: 25px;
+        text-align: center;
+
+    }
+    .card1{
+        color:white;
+        
+        font-size: 27px;
+        width:280px;
+        height:300px;
+        background-color: rgba(16, 16, 71, 0.668);
+        padding:10px 20px;
+        border-radius: 12px;
+        
+
+    }
+    .para{
+        font-size: 18px;
+        padding-bottom:10px;
+    }
+    .symbol{
+        padding-top:20px;
+        padding-left:200px;
+    
+    }
+    .cards{
+        display:flex;
+        justify-content: space-evenly;
+        gap:40px;
+        margin:10px 150px; 
+    }
+    .questions{
+        color:white;
+        margin:10px 150px;
+        font-size: 27px;
+        padding-bottom:30px;
+    }
+    
+    .que{
+        background-color: rgb(45, 45, 45);;
+        padding: 26px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+    }
+    
+    .que-title{
+        color:white;
+        font-size: 25px;
+      
+
+    }
+
+  
+    .foot-text{
+        color:white;
+        text-align: center;
+        font-size:20px;
+    }
+    .foot-input{
+        width: 380px;
+        padding: 14px;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.551);
+        border: 1px solid #eeeeee70;
+        border-radius: 4px;
+       
+    }
+    .content-foot{
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+    }
+    .foot-btn{
+        padding: 12px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 190px;
+        justify-content: center;
+    }
